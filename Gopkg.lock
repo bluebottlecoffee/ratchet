@@ -2,52 +2,16 @@
 
 
 [[projects]]
-  name = "cloud.google.com/go"
-  packages = ["compute/metadata"]
-  revision = "a5913b3f7deecba45e98ff33cefbac4fd204ddd7"
-  version = "v0.10.0"
-
-[[projects]]
   name = "github.com/aws/aws-sdk-go"
   packages = ["aws","aws/awserr","aws/awsutil","aws/client","aws/client/metadata","aws/corehandlers","aws/credentials","aws/credentials/ec2rolecreds","aws/credentials/endpointcreds","aws/credentials/stscreds","aws/defaults","aws/ec2metadata","aws/endpoints","aws/request","aws/session","aws/signer/v4","internal/shareddefaults","private/protocol","private/protocol/query","private/protocol/query/queryutil","private/protocol/rest","private/protocol/restxml","private/protocol/xml/xmlutil","service/s3","service/s3/s3iface","service/s3/s3manager","service/sts"]
   revision = "61b379ef486ea3baa55e10c358f3217f06e7b5ad"
   version = "v1.10.16"
 
 [[projects]]
-  branch = "master"
-  name = "github.com/dailyburn/bigquery"
-  packages = ["client"]
-  revision = "5c3d886e0c75bc88867babce09d02302a3dc344e"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/dailyburn/google-api-go-client-bigquery"
-  packages = ["bigquery/v2"]
-  revision = "5e46123b792170934677aa4ab30bd3c37546f5fb"
-
-[[projects]]
-  name = "github.com/dailyburn/ratchet"
-  packages = [".","data","logger","processors","util"]
-  revision = "c59e9699e8ab6428756dfa20953097b11bde9334"
-  version = "20160217.1419"
-
-[[projects]]
   name = "github.com/go-ini/ini"
   packages = ["."]
   revision = "d3de07a94d22b4a0972deb4b96d790c2c0ce8333"
   version = "v1.28.0"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/golang/protobuf"
-  packages = ["proto"]
-  revision = "748d386b5c1ea99658fd69fe9f03991ce86a90c1"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/jlaffaye/ftp"
-  packages = ["."]
-  revision = "769512c448b98e9efa243279a7e281248332aa98"
 
 [[projects]]
   name = "github.com/jmespath/go-jmespath"
@@ -61,57 +25,9 @@
   packages = ["."]
   revision = "648daed35d49dac24a4bff253b190a80da3ab6a5"
 
-[[projects]]
-  branch = "master"
-  name = "github.com/kr/fs"
-  packages = ["."]
-  revision = "2788f0dbd16903de03cb8186e5c7d97b69ad387b"
-
-[[projects]]
-  name = "github.com/pkg/errors"
-  packages = ["."]
-  revision = "645ef00459ed84a119197bfb8d8205042c6df63d"
-  version = "v0.8.0"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/pkg/sftp"
-  packages = ["."]
-  revision = "22f089b9c4056cf774ebd695b687d469f2ad4650"
-
-[[projects]]
-  branch = "master"
-  name = "golang.org/x/crypto"
-  packages = ["curve25519","ed25519","ed25519/internal/edwards25519","ssh"]
-  revision = "2faea1465de239e4babd8f5905cc25b781712442"
-
-[[projects]]
-  branch = "master"
-  name = "golang.org/x/net"
-  packages = ["context","context/ctxhttp"]
-  revision = "f5079bd7f6f74e23c4d65efa0f4ce14cbd6a3c0f"
-
-[[projects]]
-  branch = "master"
-  name = "golang.org/x/oauth2"
-  packages = [".","google","internal","jws","jwt"]
-  revision = "b53b38ad8a6435bd399ea76d0fa74f23149cca4e"
-
-[[projects]]
-  branch = "master"
-  name = "google.golang.org/api"
-  packages = ["googleapi","googleapi/internal/uritemplates"]
-  revision = "295e4bb0ade057ae2cfb9876ab0b54635dbfcea4"
-
-[[projects]]
-  name = "google.golang.org/appengine"
-  packages = [".","internal","internal/app_identity","internal/base","internal/datastore","internal/log","internal/modules","internal/remote_api","internal/urlfetch","urlfetch"]
-  revision = "150dc57a1b433e64154302bdc40b6bb8aefa313a"
-  version = "v1.0.0"
-
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "6521f51794c056b4318a7ccb0b2597b583834fc1e42652f924734676674ac792"
+  inputs-digest = "d75c7457610e470a0f9010c236924c4cc0f7c3b0c683a78032eb50780019276f"
   solver-name = "gps-cdcl"
   solver-version = 1

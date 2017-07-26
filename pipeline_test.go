@@ -5,10 +5,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/dailyburn/ratchet"
-	"github.com/dailyburn/ratchet/data"
-	"github.com/dailyburn/ratchet/logger"
-	"github.com/dailyburn/ratchet/processors"
+	"github.com/bluebottlecoffee/ratchet"
+	"github.com/bluebottlecoffee/ratchet/data"
+	"github.com/bluebottlecoffee/ratchet/logger"
+	"github.com/bluebottlecoffee/ratchet/processors"
 )
 
 func ExampleNewPipeline() {

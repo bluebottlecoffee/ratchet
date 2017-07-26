@@ -7,9 +7,9 @@ import (
 	"os/signal"
 	"sync"
 
-	"github.com/dailyburn/ratchet/data"
-	"github.com/dailyburn/ratchet/logger"
-	"github.com/dailyburn/ratchet/util"
+	"github.com/bluebottlecoffee/ratchet/data"
+	"github.com/bluebottlecoffee/ratchet/logger"
+	"github.com/bluebottlecoffee/ratchet/util"
 )
 
 // StartSignal is what's sent to a starting DataProcessor
