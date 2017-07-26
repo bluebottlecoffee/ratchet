@@ -22,7 +22,7 @@
 
 
 [[constraint]]
-  name = "github.com/dailyburn/ratchet"
+  name = "github.com/bluebottlecoffee/ratchet"
   version = "20160217.1419.0"
 
 [[constraint]]
